@@ -54,7 +54,7 @@ public class EncFilter extends HttpFilter implements Filter {
 		// 서버가 처음 동작할 때 세팅
 		// 필터를 만듦
 		
-		fConfig.getServletContext().getInitParameter("encoding");
+		this.encoding=fConfig.getServletContext().getInitParameter("encoding");
 		
 	}
 
